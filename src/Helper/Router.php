@@ -47,7 +47,7 @@ class Router{
     }
 
     // Load the correct function and pass throug the id
-    call_user_func_array($path, $params);
+    return call_user_func_array($path, $params);
 
   }
 }
