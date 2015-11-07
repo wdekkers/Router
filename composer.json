@@ -1,20 +1,21 @@
 {
-    "name": "wesleyd85/router",
-    "description": "Router to route a url to a specific function",
-    "type": "PHP",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "wesley",
-            "email": "wesley@wd-media.nl"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-      "php": ">=5.3.0"
-    },
-    "autoload": {
-      "psr-0": {
-        "Rhonda": "src/"
-      }
+  "name": "wesleyd85/router",
+  "description": "Router to route a url to a specific function",
+  "type": "PHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wesley",
+      "email": "wesley@wd-media.nl"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "router": "src/"
+    }
+  }
+}
