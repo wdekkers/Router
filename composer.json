@@ -1,6 +1,6 @@
 {
   "name": "wesleyd85/router",
-  "description": "Router to route a url to a specific function",
+  "description": "Router to route a url to a specific function.",
   "type": "PHP",
   "license": "mit",
   "authors": [
