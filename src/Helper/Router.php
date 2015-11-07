@@ -1,5 +1,5 @@
 <?php
-namespace wesleyd85;
+namespace Helper;
 
 /**
 * @author      Wesley Dekkers <wesley@wd-media.nl>
