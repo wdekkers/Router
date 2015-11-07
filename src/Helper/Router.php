@@ -38,7 +38,7 @@ class Router{
     if(isset($redirect['url']) && $redirect['url'] != ''){
 
       // If code is given (301) make header permanent
-      if($redirect['code'] == '301'){
+      if(isset($redirect['code']) && $redirect['code'] == '301'){
         header("HTTP/1.1 301 Moved Permanently"); 
       }
       // Redirect the user to this page
